@@ -19,7 +19,7 @@
         </Border>
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="350">
-                <Image Source="Assets/StoreLogo.png" Width="100" Height="100" VerticalAlignment="Top" Margin="10" Stretch="Fill"/>
+                <Image Source="Assets/hospital.png" Width="100" Height="100" VerticalAlignment="Top" Margin="10" Stretch="Fill"/>
             </StackPanel>
 
             <StackPanel Width="350">
