@@ -30,7 +30,7 @@ namespace Hospital
 
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Tıkladın amk";
+            myButton.Content = "Tıkladın";
         }
     }
 }
