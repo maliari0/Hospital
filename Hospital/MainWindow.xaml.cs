@@ -28,11 +28,6 @@ namespace Hospital
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Tıkladın ali ama sen de değişiklik yaparsan acaba senin değişikliğin gidecek mi";
-            myButton.Content = "Tıkladın aaliiiiiiiiiiiiiii";
-            //asdaassdfasd
-        }
+       
     }
 }

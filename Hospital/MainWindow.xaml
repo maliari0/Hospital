@@ -7,7 +7,29 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                <GradientStop Color="#FFE63070" Offset="1" />
+                <GradientStop Color="#FFFE8704" Offset="0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#100E17">
+
+        </Border>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="350">
+                <Image Source="Images/StoreLogo.png" Width="100" Height="100" VerticalAlignment="Top" Margin="10" Stretch="Fill"/>
+            </StackPanel>
+
+            <StackPanel Width="350">
+                <StackPanel Margin="20 40">
+                    <TextBlock Text="User Login" Margin="20" Foreground="White" TextAlignment="Center" FontSize="36" FontFamily="Great Vibes"></TextBlock>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>
