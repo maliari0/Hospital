@@ -31,6 +31,7 @@ namespace Hospital
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
             myButton.Content = "Tıkladın aaliiiiiiiiiiiiiii";
+            //asdaassdfasd
         }
     }
 }
